@@ -1,0 +1,22 @@
+@import url(common.css);
+
+
+.about-right-side h2{
+  color: var(--theme-color);
+}
+
+.about-right-side h5{
+  font-size: 14px;
+  margin-bottom: 0px !important;
+}
+
+.theme-head{
+  font-size: 18px;
+  color: var(--theme-color);
+}
+
+.designation{
+    font-size: 12px;
+    color: var(--theme-color-2);
+    line-height: 120%;
+}

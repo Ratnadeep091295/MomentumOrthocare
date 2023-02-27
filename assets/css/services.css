@@ -1,0 +1,235 @@
+@import url(common.css);
+
+
+.header-head{
+    font-size: 2.5rem;
+}
+
+.sec-header{
+    width: 100%;
+    text-align: center;
+}
+.sec-header h2{
+    font-size: 1.2rem ;
+    color: var(--theme-color);
+    padding-left: 20px;
+}
+
+.treatment-grid{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.treatment-box{
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    border: 0.1px solid rgb(220, 220, 220);
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.treatment-box:hover{
+    border: 0px solid transparent;
+    box-shadow: 0px 3px 19px -2px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 0px 3px 19px -2px rgba(0,0,0,0.38);
+    -moz-box-shadow: 0px 3px 19px -2px rgba(0,0,0,0.38);
+    border-bottom: 10px solid var(--theme-color);
+}
+
+/* hover style */
+.container .title{
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    position: relative;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .content .content-overlay {
+    background: rgba(0, 16, 45, 0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .content:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+
+
+  .main-head{
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    transition-duration: 0.3s;
+  }
+
+  .content:hover > .main-head{
+    visibility: hidden;
+    
+  }
+
+  .content-title{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .content-text{
+    text-align: left;
+    line-height: 150% ;
+  }
+
+  .content:hover{
+    cursor: pointer;
+  }
+
+  .roboticknee{
+    width: 100%;
+  }
+  .theme-head{
+    font-size: 1rem;
+    color: var(--theme-color);
+  }
+
+  .treatment-box img{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 0px;
+  }
+
+  .treatment-box h6{
+    font-size:1rem;
+    font-weight: 700;
+    color: var(--theme-color);
+  }
+  .treatment-box p{
+    font-size: 0.8rem;
+  }
+  
+  
+  .services h6{
+      font-size: 1rem;
+      text-transform: uppercase;
+      color: var(--theme-color);
+  }
+  
+  .services ul li{
+      font-size: 0.8rem;
+      list-style: none;
+      padding: 10px
+  }
+  .services ul li i{
+      color: #fff;
+      font-size: 10px ;
+      margin-right: 10px;
+      background: var(--theme-color-2);
+      border-radius: 20px ;
+      padding: 5px 8px
+      
+  }
+  .ambulance{
+      background: var(--theme-color);
+  }
+  .ambulance img{
+      margin: 0 auto;
+      width: 40%;
+  }
+  .imageambulance{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+  }
+  
+  .ambulance h3{
+      font-size: 16px;
+      color: #fff;
+  }
+
+  .google-review-profile-wrapper{
+    padding: 20px;
+}
+
+.google-review-profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.stars i{
+    margin-right: 5px;
+}
+
+.video-testimonial iframe{
+  border-radius: 5px;
+  overflow: hidden;
+} 
+.testimonial-card{
+    height: 100%;
+}

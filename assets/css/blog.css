@@ -1,0 +1,74 @@
+
+@import url(common.css);
+
+
+.img-fluid{
+    margin: 10px 0px;
+    border: 1px solid var(--theme-color);
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+.img-fluid:hover{
+    background-color: #000;
+}
+
+.section-head{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--theme-color);
+    margin-bottom: 20px;
+
+}
+
+.pdf-name{
+    font-size: 1rem ;
+    font-weight: bold;
+}
+.downloadbtn a{
+    width: 150px;
+    font-size: 14px;
+    float: right;
+    text-align: center;
+    text-decoration: none ;
+    display: block;
+    color: var(--theme-color);
+    border:1px solid var(--theme-color);
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin: 20px 0px;
+
+}
+.menu-text-warp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+.header-head{
+    color: #fff;
+    text-align: center !important;
+    background-color: var(--theme-color);
+    padding: 20px 50px;
+}
+.blog-card{
+    border-radius: 20px;
+}
+
+.qna{
+    width: 80px;
+    
+}
+.qna-img-wrapper{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.question{
+    font-weight: bold;
+}
+
+.dr-color{
+    font-weight: bold;
+    color: var(--theme-color-2);
+}

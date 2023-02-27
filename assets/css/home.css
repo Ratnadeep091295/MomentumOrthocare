@@ -1,0 +1,194 @@
+@import url(common.css);
+
+
+.about-momentum-bg{
+    background-color: #fff;
+    position: relative;
+    margin-top: -150px;
+    z-index: 1;
+    border-radius: 20px;
+    overflow: hidden;
+ }
+ .about-left-side{
+     padding: 30px;
+ }
+ .theme-head{
+    color: var(--theme-color);
+    font-size: bold;
+    text-transform: uppercase;
+ }
+ .about-left-side p{
+     margin-top: 20px;
+    text-align: justify;
+ }
+ .nav-item{
+     width: 50%;
+ }
+ .nav-link{
+     width: 100%;
+ }
+.tab-pane{
+    padding:20px;
+}
+.santosh{
+    width: 100%;
+    float: left;
+}
+.doc-details{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.card-style{
+    border-top: 20px  solid var(--theme-color);
+}
+.doc-details h2{
+    font-size: 22px;
+    margin-bottom: 0px;
+}
+.thumb{
+    width: 30%;
+}
+.add-on-doctor-pic{
+    width: 100%;
+}
+
+.treatments .fi{
+    color: var(--theme-color);
+    margin-right: 10px;
+    line-height: 250%;
+    font-size: 25px;
+}
+.treatments li {
+    list-style: none;
+}
+
+.testimonial{
+    content: " ";
+    background-image: url("../images/testimonialbg.jpg");
+    padding: 100px 0px;
+}
+.testimonial .carousel{
+    border-bottom: none;
+}
+.google-review-profile-wrapper{
+    padding: 20px;
+}
+
+.google-review-profile-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+}
+.stars i{
+    margin-right: 5px;
+}
+.video-testimonial iframe{
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+  .roboticknee{
+    width: 120%;
+  }
+  .blinkborder{
+      border: 3px dashed #fff;
+      animation: blink 1s;
+      padding: 20px;
+      animation-iteration-count: infinite;
+      width: 100%;
+  }
+  @keyframes blink { 100% { border-color: rgb(255, 199, 44); }  }
+  
+  @media only screen and ( max-width:991px ){
+      .about-momentum-bg{
+            background-color: #fff;
+            position: relative;
+            margin-top: -100px;
+            z-index: 1;
+            border-radius: 20px;
+            overflow: hidden;
+    }
+  }
+  
+    @media only screen and ( max-width:768px ){
+      .about-momentum-bg{
+            background-color: #fff;
+            position: relative;
+            margin-top: -60px;
+            z-index: 1;
+            border-radius: 20px;
+            overflow: hidden;
+    }
+       
+  }
+    @media only screen and ( max-width:480px ){
+      .about-momentum-bg{
+            background-color: #fff;
+            position: relative;
+            margin-top: 20px;
+            z-index: 1;
+            border-radius: 20px;
+            overflow: hidden;
+    }
+    
+  }
+  
+  .why-body{
+      font-size: 14px !important; 
+  }
+  .testimonial-card{
+      height: 100%;
+  }
+  .flotlogo{
+      width: 500px;
+      float: right;
+      position: fixed;
+      bottom: -200px;
+      left: -150px;
+      z-index: 999999999999;
+      
+  }
+  
+  .floatlogoimg{
+      width: 100%;
+      height: auto;
+      float: left;
+  }
+  
+  .treatments{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-top: 20px;
+  }
+  .treatments .iconimg{
+      width: 40px;
+      height: 40px;
+      margin-right: 20px;
+  }
+  .iconimg img{
+      width: 100%;
+      height: 100%;
+      filter: invert(57%) sepia(74%) saturate(2548%) hue-rotate(142deg) brightness(94%) contrast(99%);
+  }
+  
+  .float-warp{
+      position: fixed;
+      top: 75%;
+      right: -120px;
+      transform: translate(-75%, 0);
+      z-index: 999999999;
+  }
+  .float{
+      padding: 10px;
+      width: 150px;
+      height: 80px;
+     margin-top: 20px;
+  }
+  .float img{
+      width: auto;
+      height: 100%;
+      float: left;
+  }
